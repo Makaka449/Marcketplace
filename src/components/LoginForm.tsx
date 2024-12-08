@@ -37,6 +37,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onClose }) => {
         </button>
 
         <h1>Log in</h1>
+        
         <form onSubmit={handleSubmit}>
           <input
             type="email"

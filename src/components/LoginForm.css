@@ -179,10 +179,9 @@
   background-color: black;
 }
 
-.burger-btn {
-  position: absolute;
-  top: 25%;
-  right: 16%;
+.login-container .burger-btn {
+  
+  margin-left: auto;
   background: none;
   border: none;
   cursor: pointer;
@@ -190,6 +189,6 @@
   transition: transform 0.3s ease;
 }
 
-.burger-btn:hover {
+.login-container .burger-btn:hover {
   transform: scale(1.1);
 }
